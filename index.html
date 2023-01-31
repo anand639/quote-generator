@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quote Generator</title>
+		<link
+			rel="icon"
+			href="https://www.seekpng.com/png/full/944-9448464_online-boiler-quote-online-quote-icon.png"
+			type="image/png"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div class="quote-container" id="quote-container">
+			<!-- quote  -->
+			<div class="quote-text">
+				<i class="fas fa-quote-left"></i>
+				<span id="quote"></span>
+
+				<!-- <i class="fas fa-quote-right"></i> -->
+			</div>
+			<!-- author  -->
+			<div class="quote-author">
+				<span id="author"></span>
+			</div>
+
+			<!-- button  -->
+
+			<div class="button-container">
+				<button class="twitter-button" id="twitter" title="tweet this">
+					<i class="fab fa-twitter"></i>
+				</button>
+                <!-- <div>By Anand Srivastava</div> -->
+				<button id="new-quote">New Quote</button>
+			</div>
+		</div>
+
+        
+
+		<!-- loader  -->
+
+		<div class="loader" id="loader"></div>
+
+
+		<!-- <script src="./quotes.js"></script> -->
+		<script src="./script.js"></script>
+	</body>
+</html>
